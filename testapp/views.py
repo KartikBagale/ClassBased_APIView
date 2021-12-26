@@ -7,6 +7,7 @@ from . serializers import EmployeeSerializers
 from rest_framework.response import Response
 from django.http import HttpResponse
 
+# Class Based APIView
 
 # Create your views here.
 class TestAPIView(APIView):
